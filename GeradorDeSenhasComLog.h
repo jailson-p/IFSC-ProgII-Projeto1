@@ -82,7 +82,7 @@ string DATAparaLog(){
     string wd(ano + " " + mes + " " + dia + " " + hora + " " + min + " " + seg + " " );
 
     return wd;
-}                                           //função manipulação de data para o .log
+}                                          //função manipulação de data para o .log
 
 void AlimentarLog( char EstadoAtendimento , string ClasseNum ){ //char {Entrada,Saida,Atendimento},char classes, string numero sequeincial dentro da classe
 
@@ -99,7 +99,7 @@ void AlimentarLog( char EstadoAtendimento , string ClasseNum ){ //char {Entrada,
     Atendimento.close();
 }    //Alimentador do .log
 
-string AlimentadorSTRfila ( char EntradaNaClasse , list<string> &listaorganizada,bool &IN) { //Entrada na "fila"
+string AlimentadorSTRfila ( char EntradaNaClasse , list<string> &listaorganizada, bool &IN) { //Entrada na "fila"
 
             string ClasseNum ;
             ClasseNum.push_back ( EntradaNaClasse ) ;
