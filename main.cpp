@@ -6,7 +6,7 @@ void Mensagem(char SelectTexto, char escolha);
 string AlimentadorSTRfila(char Escolha);
 
 void AlimentarLog(char TipoRegistro,char TipoAtendimento, string NumeroNaOrdemClasse);
-
+///kakakak///aa
 int main() {
 
     while(true){
